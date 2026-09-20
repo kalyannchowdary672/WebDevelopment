@@ -1,0 +1,15 @@
+body {
+    .main{
+    margin-top:100px;
+    }
+    .type{
+    width: 400px;
+    display: block;
+    
+    }
+    img{
+    width: 400px;
+    display: block;
+    
+    }
+}
