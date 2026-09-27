@@ -4,11 +4,10 @@ body {
     text-align: center;
     }
     .input{
-
     width: 500px;
     display: block;
-    margin-left: 230px;
-    margin-right: 230px;
+    margin-left: auto;
+    margin-right: auto;
     height: 24px;
     border: 1px solid #dfe1e5;
     border-radius: 24px;    
@@ -36,6 +35,9 @@ body {
         padding-right: 12px;
         padding-left: 12px;
         border-radius: 3px;
+    }
+    .btn-wrapper{
+        display: flexbox;
     }
     
 }
