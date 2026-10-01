@@ -1,0 +1,23 @@
+body{
+    background-image: url(universe.jpg);
+    color: white;
+    background-size: cover;
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    
+  
+
+}
+.button{
+    padding: 6px 12px;
+    background: white;
+    color: black;
+    border: none;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+}
+.ln{
+    border: 1px solid;
+    padding: 8px 10px;
+}
