@@ -17,6 +17,16 @@ h1,h2,h4{
   border-radius: 50%;
   border: #efb0c9  solid 4px;
 }
-h4,h2{
+#bday-age{
    background: #efb0c9; 
+}
+#bday-date{
+   background: #efb0c9; 
+   padding: 1px 1px 10px;
+   border-radius: 3px;
+}
+#tags{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
