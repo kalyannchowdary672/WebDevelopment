@@ -19,14 +19,54 @@ h1,h2,h4{
 }
 #bday-age{
    background: #efb0c9; 
+   padding: 5px 10px;
+   border-radius: 5px;
+   margin: 5px 0px 10px 0px;
 }
 #bday-date{
    background: #efb0c9; 
    padding: 1px 1px 10px;
    border-radius: 3px;
+   padding: 5px 10px;
+  margin: 5px 0px 10px 0px;
+   
 }
 #tags{
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+.gift-img{
+  width: 400;
+  border: 6px solid white;
+  border-radius: 10px;
+  height: 400px;
+  background-image: url(gift\ img.webp);
+  background-size: cover;
+  margin: 0 auto;
+}
+.gift1{
+  margin-top: 10px;
+}
+.gift-msg{
+  margin-top: 10px;
+}
+#gift-img-happy:hover{
+  background-image: url(happy.gif);
+}
+#gift-img-love:hover{
+  background-image: url(love.gif);
+}
+#gift-img-actress:hover{
+  background-image: url(love.gif);
+}#gift-img-cute:hover{
+  background-image: url(love.gif);
+}
+#footer{
+  width: 400px;
+  margin: 20px auto;
+
+}
+a{
+  color: white;
 }
