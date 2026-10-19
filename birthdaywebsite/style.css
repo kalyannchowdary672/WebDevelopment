@@ -3,7 +3,7 @@ body {
   font-family: "Happy Monkey", system-ui;
   font-weight: 400;
   font-style: normal;
-  background-color: #a2d2ff;
+  background: linear-gradient(blue, pink);
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -58,7 +58,7 @@ h1,h2,h4{
   background-image: url(love.gif);
 }
 #gift-img-actress:hover{
-  background-image: url(love.gif);
+  background-image: url(happy.gif);
 }#gift-img-cute:hover{
   background-image: url(love.gif);
 }
