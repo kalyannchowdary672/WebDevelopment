@@ -20,6 +20,52 @@ body{
     text-align: center;
     background-color: burlywood;
     width: fit-content;
-
-    
+    padding: 10px 5px;
+    border-radius: 7px;
+}
+#hometowm h1{
+    font-size: 48px;
+    margin: 3px;
+}
+#hometown p{
+    font-size: 18px;
+    margin: 3px;
+}
+h2,h3,p{
+    color: darkslategray;
+}
+#Activities-list{
+    display: flex;
+    justify-content: space-around;
+}
+#Activities-list img{
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#Activities-list div{
+    width: 300px; 
+}
+#Activities{
+    background-color: honeydew;
+    padding: 20px 0;
+}
+#kalyan{
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+#guide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: powderblue;
+    padding: 20px;
+    width: 500px;
+    margin: 40px auto;
+    border-radius: 10px;
+    border-bottom: 4px solid steelblue;
 }
