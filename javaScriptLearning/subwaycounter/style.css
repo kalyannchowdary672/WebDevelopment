@@ -39,3 +39,7 @@ button{
 #save-btn {
     background-color: darkgreen;
 }
+#save-el {
+    font-size: large;
+    font-weight: bold;
+}
