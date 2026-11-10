@@ -1,6 +1,7 @@
 body{
-    margin: 0;
+    margin:0;
     display: flex;
+    flex-direction:column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -65,4 +66,24 @@ button{
     font-family: 'Cursed Timer ULiL', sans-serif;
     height: 30px;
     width: 30px;
+}
+button{
+    transition: 0.1s;
+}
+
+button:active{
+    transform: scale(0.95);
+}
+#newgame{
+   width: auto;
+   height: auto;
+   padding: 20px 30px;
+   margin-top: 50px;
+   color: white;
+   font-weight: bold;
+   font-size: large;
+   font-family:'Times New Roman', Times, serif;
+   cursor:pointer;
+   background-color: #F94F6D;
+
 }

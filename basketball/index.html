@@ -10,24 +10,24 @@
     <div class="container">
       <div class="home">
         <h3 id="">HOME</h3>
-        <div id="box1">12</div>
+        <div id="box1">0</div>
         <div class="button">
-        <button id="count1" onclick="count1()">+1</button>
-        <button>+2</button>
-        <button>+3</button>
+        <button id="count1" onclick="add1()">+1</button>
+        <button onclick="add2()">+2</button>
+        <button onclick="add3()">+3</button>
         </div>
       </div>
       <div class="guest">
         <h3 id="">GUEST</h3>
-        <div id="box2">5</div>
+        <div id="box2">0</div>
         <div class="button">
-        <button>+1</button>
-        <button>+2</button>
-        <button>+3</button>
+        <button onclick="increment1()">+1</button>
+        <button onclick="increment2()">+2</button>
+        <button onclick="increment3()">+3</button>
       </div>
-       
       </div>
     </div>
-    
+     <button id="newgame" onclick="reset()">NEW GAME</button>
+    <script src="script.js"></script>
   </body>
 </html>
