@@ -1,8 +1,8 @@
 let boxEl = document.getElementById("box1")
 let box2El = document.getElementById("box2")
 
-let homecount = 0;
-let guestcount = 0;
+let homecount = 0
+let guestcount = 0
 
 function add1(){
     homecount += 1
